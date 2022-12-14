@@ -1,8 +1,8 @@
 {
-  "project_name": "My Awesome Package",
+  "project_name": "My Awesome Django Admin Site",
   "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
   "app_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
-  "description": "Behold My Awesome Package!",
+  "description": "Behold My Awesome Admin Site!",
   "author_name": "Bin Nguyen",
-  "repo_url": "https://github.com/riso-tech/{{ cookiecutter.app_slug }}"
+  "repo_url": "https://github.com/riso-tech/{{ cookiecutter.project_slug }}"
 }
